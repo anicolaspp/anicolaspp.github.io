@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I am a software engineer at IPC, an independent SUBWAY® franchisee-owned and operated purchasing cooperative, where I work on their Big Data Platform. Very interested in Apache Spark, Hadoop, distributed systems, algorithms, and functional programming, especially in the C# and the Scala programming languages.
+
+In the past, I have done a lot of programming and engineering in C# on the .NET Framework, an environment where I feel very comfortable and knowledgeable. 
+
+Past work includes payment processing systems, POS systems, and mobile systems. All of them have allowed me to grow professionally in different areas of expertise. 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[Shoot me an email](mailto:anicolaspp@gmail.com)
