@@ -1,15 +1,16 @@
 # |> Operator in Scala
 
-In a code exchange earlier this week, a coworker saw this weird symbol in my code and rapidly he asked what it was. He seemed very surprised finding about the Pipe Forward Operator (|>)that F# has.
+In a code exchange earlier this week, a coworker saw this weird symbol in my code and rapidly he asked what it was. He seemed very surprised finding about the Pipe Forward Operator (|>)that __F#__ has.
 
-My friend is learning Scala and he wants to use the |> on it, a construct Scala lacks of. Let’s see how we can add this construct to every Scala object.
+My friend is learning __Scala__ and he wants to use the __|>__ on it, a construct __Scala__ lacks of. Let’s see how we can add this construct to every __Scala__ object.
 
-Functional Composition
+## Functional Composition
 
-Using the |> makes very easy to compose functions. The code becomes simpler to write and understand by others.
+Using the __|>__ makes very easy to compose functions. The code becomes simpler to write and understand by others.
 
 Let’s see an example:
 
+<script src="https://gist.github.com/anicolaspp/10f16118c18852e29fec.js"></script>
 
 Can we make use of |> so this composition is simpler to write? Well, we could write something like this:
 
