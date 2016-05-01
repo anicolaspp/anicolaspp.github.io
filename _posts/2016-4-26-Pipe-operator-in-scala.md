@@ -67,3 +67,4 @@ Let’s compare our current definitions to the other way we would do it which is
 <script src="https://gist.github.com/anicolaspp/c2ed858794971e9697e6.js"></script>
 
 ## Conclusions
+We have seen how Scala composes functions and how functions are composed in F# by using |>. We also saw how we can implement the |> operator in Scala and comparing how we define these functions by using or not the Pipe Forward Operator. I am not sure if people are actually using |> since Scala has another constructors and code styling that enable another set of possibilities, yet, we still can use |> and its benefits.
