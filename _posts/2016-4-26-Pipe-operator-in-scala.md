@@ -68,4 +68,4 @@ Let’s compare our current definitions to the other way we would do it which is
 
 ## Conclusions
 
-We have seen how __Scala__ composes functions and how functions are composed in __F#__ by using __|>__. We also saw how we can implement the __|>__ operator in __Scala__ and comparing how we define these functions by using or not the Pipe Forward Operator. I am not sure if people are actually using __|>__ since __Scala__ has another constructors and code styling that enable another set of possibilities, yet, we still can use __|>__ and its benefits.
+We have seen how Scala composes functions and how functions are composed in F# by using |>. We also saw how we can implement the |> operator in Scala and comparing how we define these functions by using or not the Pipe Forward Operator. I am not sure if people are actually using |> since Scala has another constructors and code styling that enable another set of possibilities, yet, we still can use |> and its benefits.
