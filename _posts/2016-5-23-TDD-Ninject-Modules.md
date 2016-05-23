@@ -1,3 +1,8 @@
+layout	title
+post
+Spark Custom Streaming Sources
+
+
 # TDD and Ninject Modules
 
 Following our commitment to Test Driven Development (TDD), we should not write a line of code before writing a failing test for it, right? yet, many people write, in an unconscious way, a lot of code without doing any kind of testing around it.
