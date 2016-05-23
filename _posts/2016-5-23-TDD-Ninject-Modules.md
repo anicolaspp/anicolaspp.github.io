@@ -2,7 +2,7 @@
 
 Following our commitment to Test Driven Development (TDD), we should not write a line of code before writing a failing test for it, right? yet, many people write, in an unconscious way, a lot of code without doing any kind of testing around it.
 
-##Ninject
+## Ninject
 
 Ninject is an Open Source Dependency Injector for .NET and you should take a look at it if you haven’t.
 
