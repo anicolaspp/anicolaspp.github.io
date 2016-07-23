@@ -1,6 +1,5 @@
 ---
 layout: post
-title: How to log in Apache Spark, a functional approach
 ---
 
 # How to log in Apache Spark, a functional approach
