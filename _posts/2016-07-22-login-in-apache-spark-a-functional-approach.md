@@ -1,12 +1,12 @@
 ---
 layout: post
+tittle: How to log in Apache Spark, a functional approach
 ---
-
-# How to log in Apache Spark, a functional approach
 
 Logging in Apache Spark comes very easy since Spark offers access to a logobject out of the box. Only some configuration setups need to be done. In a previous post we have looked at how to do this while showing some problems that may arise. However, the solution presented might cause some problems at the moment we want to collect the logs since they are distributed across the entire cluster. Even if we utilize Yarn log aggregation capabilities, there will be some contentions that might affect performance or even worse, in some cases we could end with log interleaves corrupting the nature of logs itself, they time ordered properties they should present.
 In order to solve these problems, a different approach needs to be taken, a functional one.
-The Monad Writer
+
+## The Monad Writer
 I do not intend to go over the details about monads or in this particular case, the Monad Writer, if you are interested in learning more, take a look at this link (functor, applicative, and monad) which is very informative about this topic.
 Just to put things in context, let’s say that the monad writer (writer) is a container that holds the current value of a computation in addition to history (log) of the value (set of transformation on the value).
 Because the writer monadic properties, it allows us to do functional transformations and we will soon see how everything sticks together.
