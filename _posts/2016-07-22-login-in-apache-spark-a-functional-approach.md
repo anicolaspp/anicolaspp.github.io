@@ -1,3 +1,8 @@
+---
+layout: post
+title: How to log in Apache Spark, a functional approach
+---
+
 # How to log in Apache Spark, a functional approach
 
 Logging in Apache Spark comes very easy since Spark offers access to a logobject out of the box. Only some configuration setups need to be done. In a previous post we have looked at how to do this while showing some problems that may arise. However, the solution presented might cause some problems at the moment we want to collect the logs since they are distributed across the entire cluster. Even if we utilize Yarn log aggregation capabilities, there will be some contentions that might affect performance or even worse, in some cases we could end with log interleaves corrupting the nature of logs itself, they time ordered properties they should present.
